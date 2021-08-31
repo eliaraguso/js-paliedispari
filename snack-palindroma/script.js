@@ -5,9 +5,9 @@
 
 
 
-// Chiedo all'utente di inserire una parola
-var parolaUtente = prompt("Inserisci una parola");
 
+// // Chiedo all'utente di inserire una parola
+// var parolaUtente = prompt("Inserisci una parola");
 
 // // creo una variabile che sia uguale ad un array composto 
 // // dai singoli caratteri di cui è composta la parola 
@@ -36,7 +36,8 @@ var parolaUtente = prompt("Inserisci una parola");
 // ---------------------------------------------------------------------------------------------------------------------
 
 
-
+// Chiedo all'utente di inserire una parola
+var parolaUtente = prompt("Inserisci una parola");
 // creo una funzione che verifichi se la parola è palindroma o no
 function verificaPalindroma(parola) {
     var parolaDivisa = parola.split("");
@@ -51,5 +52,3 @@ function verificaPalindroma(parola) {
 
 // applico la funzione
 verificaPalindroma(parolaUtente);
-
-
